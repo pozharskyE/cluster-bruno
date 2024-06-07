@@ -19,7 +19,7 @@ sudo apt-get update -y
 
 # Install CRI-O Runtime
 
-OS="Debian_12"
+OS="Debian_11"
 
 VERSION="1.28"
 
