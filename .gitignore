@@ -1,5 +1,8 @@
 data
+
 *__pycache__
-nb.ipynb
-notebook.ipynb
-frontend
+*nb.ipynb
+*notebook.ipynb
+*frontend
+*.gitignore
+*cloned-scripts*
