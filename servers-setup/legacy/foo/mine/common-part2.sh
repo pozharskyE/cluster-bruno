@@ -16,7 +16,7 @@ apt upgrade -y
 
 apt-get -y install containerd
 
-service containerd enable
+# service containerd enable
 service containerd restart
 # --------------------------------------------------
 
