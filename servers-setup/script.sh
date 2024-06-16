@@ -38,3 +38,10 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 modprobe br_netfilter
 sysctl -w net.bridge.bridge-nf-call-iptables=1
 
+
+export KUBECONFIG=/etc/kubernetes/admin.conf
+
+rm cni-plugins-linux-amd64-v1.5.0.tgz
+rm containerd-1.7.18-linux-amd64.tar.gz
+rm runc.amd64
+
